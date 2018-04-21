@@ -2,6 +2,9 @@
 #define KALMAN_FILTER_H_
 #include "Eigen/Dense"
 
+const float PI = 3.1415927;
+const float EPSILON = 0.0001;
+
 class KalmanFilter {
 public:
 
@@ -22,6 +25,7 @@ public:
 
   // measurement covariance matrix
   Eigen::MatrixXd R_;
+
 
   /**
    * Constructor
