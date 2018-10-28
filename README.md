@@ -3,7 +3,8 @@
 In this project I utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The implementation achieves a low RMSE of [0.097, 0.085, 0.450, 0.440] in [px, py, vx, vy].
 
 Click below for demo video:
-![demo(http://img.youtube.com/vi/d6qbR3_LPoA/0.jpg)](https://www.youtube.com/watch?v=d6qbR3_LPoA)
+
+[![demo](http://img.youtube.com/vi/d6qbR3_LPoA/0.jpg)](https://www.youtube.com/watch?v=d6qbR3_LPoA)
 
 ## Setup
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
