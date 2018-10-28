@@ -6,6 +6,8 @@ Click below for demo video:
 
 [![demo](http://img.youtube.com/vi/d6qbR3_LPoA/0.jpg)](https://www.youtube.com/watch?v=d6qbR3_LPoA)
 
+Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. The video shows what the simulator looks like when a c++ script is using its Kalman filter to track the object. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
+
 ## Setup
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
