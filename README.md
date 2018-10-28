@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project
 
 In this project I utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The implementation achieves a low RMSE of [0.097, 0.085, 0.450, 0.440] in [px, py, vx, vy].
 
